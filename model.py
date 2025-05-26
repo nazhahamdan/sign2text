@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from keras.applications.vgg16 import VGG16
-from keras.applications.resnet50 import ResNet50
-from keras.applications.inception_v3 import InceptionV3
-from keras.applications.xception import Xception
-from keras.applications.mobilenet import MobileNet
+from tensorflow.keras.applications.vgg16 import VGG16
+from tensorflow.keras.applications.resnet50 import ResNet50
+from tensorflow.keras.applications.inception_v3 import InceptionV3
+from tensorflow.keras.applications.xception import Xception
+from tensorflow.keras.applications.mobilenet import MobileNet
 
-from keras.layers import Flatten, Dense, Dropout, Input
-from keras.models import Sequential, Model
+from tensorflow.keras.layers import Flatten, Dense, Dropout, Input
+from tensorflow.keras.models import Sequential, Model
 
 import argparse
 
